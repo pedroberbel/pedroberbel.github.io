@@ -1,0 +1,179 @@
+*{
+/*	margin: 5px;
+*/	padding: 0px;
+}
+
+#paginaHome {
+	background-color: grey;
+	width: 1060px;
+	margin: auto;
+	border: solid black 3px;
+	border-radius: 5px;
+}
+
+#paginaHome header { /*  elemento header dentro de div paginaHome  */
+	width: 100%;
+	height: 240px;
+	margin: auto;
+	margin-bottom: 10px;
+	background-color: white;
+	border-style: none;
+
+}
+
+#paginaHome header img {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: solid black 1px;
+	border-radius: 5px;
+
+}
+
+#paginaHome header h1 {
+	text-align: center;
+	padding-top: 5px;
+	font-size: 30px;
+	font-style: bold;
+	font-family: arial;
+}
+
+#paginaHome header nav ol {
+	list-style-type: none;
+	text-align: center;
+	width: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#paginaHome header nav ol li {
+	width: 100px;
+	display: inline-block;
+/*display: inline -- com width: 100% funcionou!*/
+
+}
+
+#paginaHome header iframe{
+	height: 100px;
+	width: 40%;
+	float:right;
+	border-style: none;
+
+		}
+body form {
+	text-align: right;
+	border-spacing: 0px;
+}
+
+
+
+/*      PARTE CENTRAL                        */
+
+#paginaHome section {
+	height: auto;
+	width: 100%;
+	/*background-color: brown;*/
+}
+
+#paginaHome section nav { /*Menu*/
+	text-align: center;
+	width: auto;
+	/*float: left;*/
+	border: solid black 3px;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: white;
+}
+
+#paginaHome section nav ol { /*Menu*/
+	list-style-type: none;
+}
+
+#paginaHome section nav h1 {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#paginaHome section nav ol li {
+	display: inline-block;
+	text-align: left;
+	margin: 5px;
+	margin-top: 0px;
+}
+
+
+/*     CONTEÚDO     */
+
+#paginaHome section #paginaCentral {
+		
+	background-color: white;
+	width: auto;
+	height: 500px;
+	border: solid black 3px;
+	border-radius: 5px;
+	margin: 5px;	
+
+	}
+
+#paginaHome section #paginaCentral iframe {
+	width: 100%;
+	height: 100%;
+	border-style: none;
+	text-align: center;
+}
+
+article header h1 {
+	font-size: 20px;
+	color: red;
+}
+
+
+
+
+#paginaHome footer {
+	border: solid black 3px;
+	border-radius: 5px;	
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;	
+	margin-top: 20px;
+	background-color: white;
+	margin-bottom: -1px;
+	margin-left: -1px;
+	margin-right: -1px;
+
+}
+
+#paginaHome footer h1 {
+/*	border: solid black 2px;
+	border-radius: 5px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;*/
+	text-align: center;
+	font-size: 20px;
+	font-family: arial;
+
+}
+
+#paginaHome footer p {
+	text-align: center;
+
+}
+
+/*.login-cover{
+background: #fff;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+z-index: 800;
+
+}*/
+
+
