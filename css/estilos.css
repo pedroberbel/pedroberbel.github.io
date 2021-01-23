@@ -3,6 +3,17 @@ body, html{
 	margin: 0rem;
   }
 
+footer {
+	position: absolute;
+	bottom: 0;
+	padding-left:15px;
+    /* background-color: blue; */
+    color: #FFF;
+    width: 100%;
+    height: 60px;    
+    text-align: left;
+    line-height: 100px;
+}
 
 .right-content {
 	width: 46%;
@@ -33,4 +44,10 @@ body, html{
 
 .text-style {
 	font-family: "Myriad Pro", "Myriad", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.social-media-icon {
+	width: 50px;
+	height: 50px;
 }
