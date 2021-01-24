@@ -2,18 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link rel="shortcut icon" href="./imagens/pb-icon.ico" type="image/x-icon" />
   
   <title>Portifólio - Pedro Berbel</title>
+  <script src="./cumprimentosComponent.js"></script>
   <script src="./index.js"></script>
   <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body class="pagina-content">
   
     <div class="left-content"> 
-      <h1 class="left-Text text-style">Pedro Luis Berbel dos Santos</h1>
-
+      <output class="left-Text text-style" id="cumprimento"></output>
+      <h1 class="left-Text text-style">Eu sou o Pedro!</h1>
+      <p id="apresentacao"></p>
       
       <footer>
         <a href="https://cutt.ly/pb-linkedin" target="_blank"><img class="social-media-icon" src="./imagens/linkedin.ico"></a>
@@ -23,6 +25,7 @@
 
     <div class="right-content">
       <h1 class="right-Text text-style">Portifólio <br>em <br>Construção</h1>
+      <div class="coffee-loading" id="coffeeLoading"></div>
     </div>
   
     <!-- Icons made by Freepik: http://www.freepik.com -->

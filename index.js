@@ -1,1 +1,1 @@
-var data = new Date();
+window.onload = () => new CumprimentosComponent()
