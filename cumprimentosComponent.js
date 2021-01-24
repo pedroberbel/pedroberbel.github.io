@@ -19,12 +19,7 @@ class CumprimentosComponent {
 
         let image = (imgPath+ "coffe-loading1.png")
 
-        
-
-
-        elementoCoffeeLoading.innerHTML = ('<img src=\"'+image+'\" width=\"248px\" height=\"204.5px\">')
-
-
+        elementoCoffeeLoading.innerHTML = ('<img src=\"'+image+'\" width=\"60%\" height=\"60%\">')
     }
 
     cumprimentos() {
